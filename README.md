@@ -4,7 +4,7 @@
 
 ## About The Project
 
-The **Turkish Natural Disaster Call API** is designed to provide real-time, reliable information about natural disasters occurring within Turkey. By granting access to authenticated users, the API serves as a central, structured dataset for natural hazard information, including earthquakes, floods, fires, and more. This data source supports awareness and response to natural events, helping foster a safer and better-informed society.
+The **Turkish Natural Disaster Call API** is designed to provide reliable information about natural disasters occurring within Turkey. By granting access to authenticated users, the API serves as a central, structured dataset for natural hazard information, including earthquakes, floods, fires, and more. This data source supports awareness and response to natural events, helping foster a safer and better-informed society.
 
 ## Motives
 

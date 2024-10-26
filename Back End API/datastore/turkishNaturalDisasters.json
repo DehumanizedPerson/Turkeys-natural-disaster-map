@@ -1,0 +1,24 @@
+
+{
+  // Because its for testing data base isn't filled to full
+  "İstanbul": [
+    {
+      "afet_türü": "Deprem",
+      "tarih": "17 Ağustos 1999"
+    },
+    {
+      "afet_türü": "Sel",
+      "tarih": "9 Eylül 2009"
+    }
+  ],
+  "Ankara": [
+    {
+      "afet_türü": "Deprem",
+      "tarih": "6 Haziran 2005"
+    },
+    {
+      "afet_türü": "Fırtına",
+      "tarih": "12 Şubat 2020"
+    }
+  ]
+}

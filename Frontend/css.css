@@ -4,60 +4,76 @@ body {
  align-items: center;
  min-height: 100vh;
 }
-.pop{
- position: fixed;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
- border: 1px solid black;
- border-radius: 10px;
- z-index: 10;
- background-color: white;
- width: 500px;
- max-width: 80%;
-
+body {
+  background: #f2e2ce;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
-.pop-head{
- padding: 10px 15px;
- display: flex;
- justify-content: space-between;
- align-items: center;
- border-bottom: 1px solid black;
+.pop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+  opacity: 0;
 }
 
-.pop-head .title{
- font-size: 1.25rem;
- font-weight: bold;
-
+.pop.active {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
 }
 
-.pop-head .close-button{
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background: none;
-  font-size: 1.25 rem;
+.pop-head {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.pop-head .title {
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
-.pop-body{
- padding: 10px 15px;
+.pop-head .close-button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-#overlay{
- position: fixed;
- opacity: 0;
- top: 0;
- bbottom: 0;
- left: 0;
- right: 0;
- background-color: rgba(0, 0, 0, 0.5);
- pointer-events: none;
-}
-#overlay.active{
 
-
+.pop-body {
+  padding: 10px 15px;
 }
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
  svg .region {
  fill: #8c5423;
  stroke: #ccc;
@@ -76,32 +92,3 @@ svg .region.on{
  fill: #733e1f;
 }
 
-.map-of-regions .list-of-regions .region-card .region-content {
-  padding: 10px;
-}
-.map-of-regions .list-of-regions .region-card .region-content .title {
-  font-weight: 600;
-}
-.map-of-regions .list-of-regions .region-card .region-content .title.fs-6 {
-  font-size: 1rem;
-}
-.map-of-regions svg {
-  width: 100%;
-  display: block;
-}
-.map-of-regions svg .region {
-  fill: #8c5423;
-  stroke: #ccc;
-  stroke-linejoin: round;
-  fill-rule: evenodd;
-  clip-rule: evenodd;
-  stroke-width: 1;
-  cursor: pointer;
-  transition: all 300ms;
-}
-.map-of-regions svg .region:hover {
-  fill: #a67449;
-}
-.map-of-regions svg .region.on {
-  fill: #733e1f;
-}

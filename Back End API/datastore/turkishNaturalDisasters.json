@@ -1,24 +1,326 @@
-
 {
-  // Because its for testing data base isn't filled to full
-  "İstanbul": [
-    {
-      "afet_türü": "Deprem",
-      "tarih": "17 Ağustos 1999"
-    },
-    {
-      "afet_türü": "Sel",
-      "tarih": "9 Eylül 2009"
-    }
-  ],
-  "Ankara": [
-    {
-      "afet_türü": "Deprem",
-      "tarih": "6 Haziran 2005"
-    },
-    {
-      "afet_türü": "Fırtına",
-      "tarih": "12 Şubat 2020"
-    }
-  ]
+    "Adana": [
+        { "afet_türü": "Deprem", "tarih": "1998" },
+        { "afet_türü": "Sel", "tarih": "2010" }
+    ],
+    "Adıyaman": [
+        { "afet_türü": "Deprem", "tarih": "2023" },
+        { "afet_türü": "Sel", "tarih": "2003" }
+    ],
+    "Afyonkarahisar": [
+        { "afet_türü": "Deprem", "tarih": "1999" },
+        { "afet_türü": "Sel", "tarih": "2014" }
+    ],
+    "Ağrı": [
+        { "afet_türü": "Deprem", "tarih": "1976" },
+        { "afet_türü": "Sel", "tarih": "2010" }
+    ],
+    "Aksaray": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Sel", "tarih": "2014" }
+    ],
+    "Amasya": [
+        { "afet_türü": "Sel", "tarih": "2007" },
+        { "afet_türü": "Taşkın", "tarih": "2020" }
+    ],
+    "Ankara": [
+        { "afet_türü": "Deprem", "tarih": "1990" },
+        { "afet_türü": "Sel", "tarih": "2019" }
+    ],
+    "Antalya": [
+        { "afet_türü": "Yangın", "tarih": "2003" },
+        { "afet_türü": "Sel", "tarih": "2020" }
+    ],
+    "Ardahan": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2000" }
+    ],
+    "Artvin": [
+        { "afet_türü": "Sel", "tarih": "2017" },
+        { "afet_türü": "Heyelan", "tarih": "1998" }
+    ],
+    "Aydın": [
+        { "afet_türü": "Yangın", "tarih": "2020" },
+        { "afet_türü": "Sel", "tarih": "2012" }
+    ],
+    "Balıkesir": [
+        { "afet_türü": "Deprem", "tarih": "2008" },
+        { "afet_türü": "Sel", "tarih": "2014" }
+    ],
+    "Bartın": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Heyelan", "tarih": "2003" }
+    ],
+    "Batman": [
+        { "afet_türü": "Deprem", "tarih": "2009" },
+        { "afet_türü": "Sel", "tarih": "2020" }
+    ],
+    "Bayburt": [
+        { "afet_türü": "Sel", "tarih": "2010" },
+        { "afet_türü": "Heyelan", "tarih": "1998" }
+    ],
+    "Bilecik": [
+        { "afet_türü": "Deprem", "tarih": "2020" },
+        { "afet_türü": "Sel", "tarih": "2014" }
+    ],
+    "Bingöl": [
+        { "afet_türü": "Deprem", "tarih": "2010" },
+        { "afet_türü": "Sel", "tarih": "2012" }
+    ],
+    "Bitlis": [
+        { "afet_türü": "Deprem", "tarih": "2011" },
+        { "afet_türü": "Sel", "tarih": "2020" }
+    ],
+    "Bolu": [
+        { "afet_türü": "Deprem", "tarih": "2004" },
+        { "afet_türü": "Sel", "tarih": "2014" }
+    ],
+    "Burdur": [
+        { "afet_türü": "Deprem", "tarih": "2007" },
+        { "afet_türü": "Sel", "tarih": "2015" }
+    ],
+    "Bursa": [
+        { "afet_türü": "Deprem", "tarih": "1999" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Çanakkale": [
+        { "afet_türü": "Sel", "tarih": "2017" },
+        { "afet_türü": "Deprem", "tarih": "1999" }
+    ],
+    "Çankırı": [
+        { "afet_türü": "Sel", "tarih": "2019" },
+        { "afet_türü": "Heyelan", "tarih": "2000" }
+    ],
+    "Çorum": [
+        { "afet_türü": "Sel", "tarih": "2022" },
+        { "afet_türü": "Deprem", "tarih": "1999" }
+    ],
+    "Denizli": [
+        { "afet_türü": "Deprem", "tarih": "1995" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Diyarbakır": [
+        { "afet_türü": "Deprem", "tarih": "2010" },
+        { "afet_türü": "Sel", "tarih": "2018" }
+    ],
+    "Düzce": [
+        { "afet_türü": "Deprem", "tarih": "1999" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Edirne": [
+        { "afet_türü": "Sel", "tarih": "2000" },
+        { "afet_türü": "Sel", "tarih": "2019" }
+    ],
+    "Elazığ": [
+        { "afet_türü": "Deprem", "tarih": "2020" },
+        { "afet_türü": "Sel", "tarih": "2014" }
+    ],
+    "Erzincan": [
+        { "afet_türü": "Deprem", "tarih": "1992" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Erzurum": [
+        { "afet_türü": "Deprem", "tarih": "2010" },
+        { "afet_türü": "Sel", "tarih": "2009" }
+    ],
+    "Eskişehir": [
+        { "afet_türü": "Deprem", "tarih": "2004" },
+        { "afet_türü": "Sel", "tarih": "2018" }
+    ],
+    "Gaziantep": [
+        { "afet_türü": "Deprem", "tarih": "2010" },
+        { "afet_türü": "Sel", "tarih": "2020" }
+    ],
+    "Giresun": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Heyelan", "tarih": "2010" }
+    ],
+    "Gümüşhane": [
+        { "afet_türü": "Sel", "tarih": "2014" },
+        { "afet_türü": "Deprem", "tarih": "1999" }
+    ],
+    "Hakkari": [
+        { "afet_türü": "Deprem", "tarih": "2011" },
+        { "afet_türü": "Sel", "tarih": "2019" }
+    ],
+    "Hatay": [
+        { "afet_türü": "Deprem", "tarih": "2023" },
+        { "afet_türü": "Sel", "tarih": "2010" }
+    ],
+    "Iğdır": [
+        { "afet_türü": "Deprem", "tarih": "2010" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Isparta": [
+        { "afet_türü": "Deprem", "tarih": "2002" },
+        { "afet_türü": "Sel", "tarih": "2017" }
+    ],
+    "İstanbul": [
+        { "afet_türü": "Deprem", "tarih": "1999" },
+        { "afet_türü": "Sel", "tarih": "2020" }
+    ],
+    "İzmir": [
+        { "afet_türü": "Deprem", "tarih": "2020" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Kahramanmaraş": [
+        { "afet_türü": "Deprem", "tarih": "2023" },
+        { "afet_türü": "Sel", "tarih": "1999" }
+    ],
+    "Karabük": [
+        { "afet_türü": "Sel", "tarih": "2020" },
+        { "afet_türü": "Deprem", "tarih": "2018" }
+    ],
+    "Karaman": [
+        { "afet_türü": "Deprem", "tarih": "2000" },
+        { "afet_türü": "Sel", "tarih": "2011" }
+    ],
+    "Kars": [
+        { "afet_türü": "Deprem", "tarih": "2009" },
+        { "afet_türü": "Sel", "tarih": "2012" }
+    ],
+    "Kastamonu": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Heyelan", "tarih": "2020" }
+    ],
+    "Kayseri": [
+        { "afet_türü": "Deprem", "tarih": "2023" },
+        { "afet_türü": "Sel", "tarih": "2020" }
+    ],
+    "Kırıkkale": [
+        { "afet_türü": "Sel", "tarih": "2020" },
+        { "afet_türü": "Deprem", "tarih": "2018" }
+    ],
+    "Kırklareli": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "1999" }
+    ],
+    "Kırşehir": [
+        { "afet_türü": "Sel", "tarih": "2020" },
+        { "afet_türü": "Deprem", "tarih": "2018" }
+    ],
+    "Kilis": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2010" }
+    ],
+    "Kocaeli": [
+        { "afet_türü": "Deprem", "tarih": "1999" },
+        { "afet_türü": "Sel", "tarih": "2018" }
+    ],
+    "Konya": [
+        { "afet_türü": "Sel", "tarih": "2020" },
+        { "afet_türü": "Deprem", "tarih": "2018" }
+    ],
+    "Kütahya": [
+        { "afet_türü": "Sel", "tarih": "2014" },
+        { "afet_türü": "Deprem", "tarih": "1999" }
+    ],
+    "Malatya": [
+        { "afet_türü": "Deprem", "tarih": "2020" },
+        { "afet_türü": "Sel", "tarih": "2014" }
+    ],
+    "Manisa": [
+        { "afet_türü": "Deprem", "tarih": "2019" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Mardin": [
+        { "afet_türü": "Sel", "tarih": "2020" },
+        { "afet_türü": "Deprem", "tarih": "2010" }
+    ],
+    "Mersin": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2009" }
+    ],
+    "Muğla": [
+        { "afet_türü": "Yangın", "tarih": "2021" },
+        { "afet_türü": "Sel", "tarih": "2016" }
+    ],
+    "Muş": [
+        { "afet_türü": "Deprem", "tarih": "2010" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Nevşehir": [
+        { "afet_türü": "Deprem", "tarih": "2010" },
+        { "afet_türü": "Sel", "tarih": "2020" }
+    ],
+    "Niğde": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2012" }
+    ],
+    "Ordu": [
+        { "afet_türü": "Sel", "tarih": "2020" },
+        { "afet_türü": "Deprem", "tarih": "2013" }
+    ],
+    "Osmaniye": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2010" }
+    ],
+    "Rize": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2010" }
+    ],
+    "Sakarya": [
+        { "afet_türü": "Sel", "tarih": "2020" },
+        { "afet_türü": "Deprem", "tarih": "1999" }
+    ],
+    "Samsun": [
+        { "afet_türü": "Sel", "tarih": "2020" },
+        { "afet_türü": "Deprem", "tarih": "2013" }
+    ],
+    "Siirt": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2010" }
+    ],
+    "Sinop": [
+        { "afet_türü": "Sel", "tarih": "2019" },
+        { "afet_türü": "Deprem", "tarih": "2010" }
+    ],
+    "Sivas": [
+        { "afet_türü": "Deprem", "tarih": "2018" },
+        { "afet_türü": "Sel", "tarih": "2014" }
+    ],
+    "Şanlıurfa": [
+        { "afet_türü": "Sel", "tarih": "2023" },
+        { "afet_türü": "Deprem", "tarih": "2020" }
+    ],
+    "Şırnak": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2010" }
+    ],
+    "Tekirdağ": [
+        { "afet_türü": "Sel", "tarih": "2020" },
+        { "afet_türü": "Deprem", "tarih": "2019" }
+    ],
+    "Tokat": [
+        { "afet_türü": "Deprem", "tarih": "2017" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Trabzon": [
+        { "afet_türü": "Sel", "tarih": "2019" },
+        { "afet_türü": "Deprem", "tarih": "2010" }
+    ],
+    "Tunceli": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2010" }
+    ],
+    "Uşak": [
+        { "afet_türü": "Sel", "tarih": "2021" },
+        { "afet_türü": "Deprem", "tarih": "2019" }
+    ],
+    "Van": [
+        { "afet_türü": "Deprem", "tarih": "2011" },
+        { "afet_türü": "Sel", "tarih": "2020" }
+    ],
+    "Yalova": [
+        { "afet_türü": "Deprem", "tarih": "1999" },
+        { "afet_türü": "Sel", "tarih": "2021" }
+    ],
+    "Yozgat": [
+        { "afet_türü": "Deprem", "tarih": "2020" },
+        { "afet_türü": "Sel", "tarih": "2018" }
+    ],
+    "Zonguldak": [
+        { "afet_türü": "Deprem", "tarih": "2018" },
+        { "afet_türü": "Sel", "tarih": "2020" }
+    ]
 }

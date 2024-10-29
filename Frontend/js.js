@@ -1,10 +1,10 @@
-const provinceData = {
- izmir: {title: "İzmir", content: "2020 İzmir Depremi: 30 Ekim’de 7.0 büyüklüğünde meydana gelen deprem, İzmir’de 100’den fazla kişinin ölümüne ve birçok binanın yıkılmasına neden olmuştur."},
- ankara: { title: "Ankara", content: "deneme" },
- trabzon: { title: "Trabzon", content: "2019 Trabzon Heyelanı: Trabzon’da meydana gelen aşırı yağış sonrası oluşan heyelan, köy yollarını kapatmış ve bazı yerleşim yerlerine zarar vermiştir." },
- adana: { title: "adana", content: "deneme3" },
- van: { title: "Van", content: "2011 Van Depremi:  23 Ekim’de 7.1 büyüklüğünde meydana gelen depremde yaklaşık 600 kişi yaşamını yitirmiş, 4.000'den fazla kişi yaralanmıştır."}
-};
+let provinceData = {};
+fetch('provinceData.json')
+  .then(response => response.json())
+  .then(data => {
+    provinceData = data;
+    return fetch('map-t.svg');
+  })
 fetch('map-t.svg')
  .then(response => response.text())
  .then(data => {

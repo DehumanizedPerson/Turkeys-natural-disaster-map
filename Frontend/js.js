@@ -1,26 +1,41 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const modeToggleButton = document.getElementById('mode-s');
+    const body = document.body;
+    const header = document.querySelector('header');
+    const pop = document.getElementById('pop');
+    const overlay = document.getElementById('overlay');
+
+    modeToggleButton.addEventListener('click', function() {
+        body.classList.toggle('dark-mode');
+        header.classList.toggle('dark-mode');
+        pop.classList.toggle('dark-mode');
+        overlay.classList.toggle('dark-mode');
+    });
+});
+
 let provinceData = {};
+
 fetch('provinceData.json')
   .then(response => response.json())
   .then(data => {
     provinceData = data;
     return fetch('map-t.svg');
   })
-fetch('map-t.svg')
- .then(response => response.text())
- .then(data => {
- const div = document.createElement('div');
- div.innerHTML = data;
- const svgContainer = document.getElementById('svg-container');
- svgContainer.appendChild(div);
+  .then(response => response.text())
+  .then(data => {
+    const div = document.createElement('div');
+    div.classList.add('svg-image');
+    div.innerHTML = data;
+    document.getElementById('svg-container').appendChild(div);
 
- const provinces = document.querySelectorAll('.region');
- provinces.forEach(province => {
-   province.addEventListener('click', () => {
-    showProvincePopup(province.id);
+    const provinces = document.querySelectorAll('.region');
+    provinces.forEach(province => {
+      province.addEventListener('click', () => {
+        showProvincePopup(province.id);
       });
     });
   })
-.catch(error => console.error('Error loading SVG:', error));
+  .catch(error => console.error('Error loading data:', error));
 
 function showProvincePopup(provinceId) {
   const popup = document.getElementById('pop');
@@ -31,24 +46,29 @@ function showProvincePopup(provinceId) {
   popupContent.textContent = content;
   openPop(popup);
 }
+
 function openPop(pop) {
- if (!pop) return;
- pop.classList.add('active');
- overlay.classList.add('active');
+  if (!pop) return;
+  pop.classList.add('active');
+  overlay.classList.add('active');
 }
+
 function closePop(pop) {
- if (!pop) return;
- pop.classList.remove('active');
- overlay.classList.remove('active');
+  if (!pop) return;
+  pop.classList.remove('active');
+  overlay.classList.remove('active');
 }
+
 const closeModelButtons = document.querySelectorAll('[data-pop-close]');
 const overlay = document.getElementById('overlay');
- closeModelButtons.forEach(button => {
-   button.addEventListener('click', () => {
-     const pop = button.closest('.pop');
-     closePop(pop);
-   });
+
+closeModelButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const pop = button.closest('.pop');
+    closePop(pop);
+  });
 });
+
 overlay.addEventListener('click', () => {
   const activePopups = document.querySelectorAll('.pop.active');
   activePopups.forEach(pop => closePop(pop));

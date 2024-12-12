@@ -5,7 +5,13 @@ body {
  min-height: 100vh;
 }
 
-
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 .pop {
   position: fixed;
   top: 50%;
@@ -68,20 +74,44 @@ body {
   pointer-events: all;
 }
 
- svg .region {
- fill: #8c5423;
- stroke: #ccc;
- stroke-linejoin: round;
- fill-rule: evenodd;
- clip-rule: evenodd;
- stroke-width: 1;
- cursor: pointer;
- transition: all 300ms;
+svg .region {
+    stroke: #ccc;
+    stroke-linejoin: round;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-width: 1;
+    cursor: pointer;
+    transition: fill-opacity 300ms;
 }
 
 svg .region:hover{
- fill: #a67449;
+ fill-opacity: 0.8;
 }
-svg .region.on{
- fill: #733e1f;
+#karadeniz{
+  fill: #196f3d ;
+}
+#marmara{
+  fill: #1a5276 ;
+}
+#i_anadolu{
+  fill:  #935116   ;
+}
+#akdeniz{
+  fill:  #4a235a ;
+}
+#ege{
+  fill:  #0e6251 ;
+}
+#g_anadolu{
+  fill:   #6e2c00  ;
+}
+#d_anadolu{
+  fill:  #641e16 ;
+}
+.logo {
+ position: absolute;
+ bottom: 20px;
+ right: 20px;
+ width: 400px;
+ height: auto;
 }

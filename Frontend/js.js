@@ -10,7 +10,8 @@ fetch('map-t.svg')
  .then(data => {
  const div = document.createElement('div');
  div.innerHTML = data;
- document.body.appendChild(div);
+ const svgContainer = document.getElementById('svg-container');
+ svgContainer.appendChild(div);
 
  const provinces = document.querySelectorAll('.region');
  provinces.forEach(province => {

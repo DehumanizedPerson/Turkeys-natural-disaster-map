@@ -106,43 +106,151 @@ header button:hover {
   pointer-events: all;
 }
 
-svg .region {
-    stroke: #ccc;
-    stroke-linejoin: round;
-    fill-rule: evenodd;
-    clip-rule: evenodd;
-    stroke-width: 1;
-    cursor: pointer;
-    transition: fill-opacity 300ms;
+
+svg .karadeniz{
+  fill: #196f3d ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
 }
 
-svg .region:hover{
+svg .karadeniz:hover{
  fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
 }
-#karadeniz{
-  fill: #196f3d ;
-}
-#marmara{
+svg .marmara{
   fill: #1a5276 ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
 }
-#i_anadolu{
+svg .marmara:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .i_anadolu{
   fill:  #424949    ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
 }
-#akdeniz{
+svg .i_anadolu:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .akdeniz{
   fill: #17202a   ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
 }
-#ege{
+svg .akdeniz:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .ege{
   fill:  #0e6251 ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
 }
-#g_anadolu{
+svg .ege:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .g_anadolu{
   fill:   #6e2c00  ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
 }
-#d_anadolu{
+svg .g_anadolu:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .d_anadolu{
   fill:  #641e16 ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
+}
+svg .d_anadolu:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
 }
 
 body.dark-mode {
-    background: #121212;
+    background:   #121212   ;
     color: #fff;
 }
 
@@ -152,12 +260,13 @@ header.dark-mode {
 }
 
 header button.dark-mode {
-    background-color: #fff;
+    background-color: #333;
     color: #fff;
 }
 
 header button.dark-mode:hover {
     background-color: #444444;
+
 }
 
 .pop.dark-mode {

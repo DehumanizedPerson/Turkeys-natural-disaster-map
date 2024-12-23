@@ -20,7 +20,11 @@
     "content": "2011 Van Depremi: 23 Ekim’de 7.1 büyüklüğünde meydana gelen depremde yaklaşık 600 kişi yaşamını yitirmiş, 4.000'den fazla kişi yaralanmıştır."
   },
   "kocaeli": {
-    "title": "Kocaeli",
+    "name": "Kocaeli",
+    "content": "1999 İzmit (Gölcük) Depremi: 17 Ağustos 1999’da, Kocaeli'nin Gölcük ilçesi merkezli 7.4 büyüklüğünde bir deprem meydana geldi. Marmara Bölgesi'nde ağır hasara yol açan depremde yaklaşık 17.000 kişi yaşamını yitirdi, 250.000’den fazla kişi evsiz kaldı. Türkiye’de depreme hazırlık bilincini artıran önemli bir olay olarak tarihe geçti."
+  },
+  "gaziantep": {
+    "name": "Gaziantep",
     "content": "1999 İzmit (Gölcük) Depremi: 17 Ağustos 1999’da, Kocaeli'nin Gölcük ilçesi merkezli 7.4 büyüklüğünde bir deprem meydana geldi. Marmara Bölgesi'nde ağır hasara yol açan depremde yaklaşık 17.000 kişi yaşamını yitirdi, 250.000’den fazla kişi evsiz kaldı. Türkiye’de depreme hazırlık bilincini artıran önemli bir olay olarak tarihe geçti."
   },
   "kahramanmaraş": {

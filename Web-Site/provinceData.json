@@ -1,0 +1,94 @@
+{
+  "ankara": {
+    "title": "Ankara",
+    "content": [
+      "1957 Sel Felaketi: Yoğun yağışlar sonucunda meydana gelen sel, ciddi can ve mal kaybına yol açmıştır.",
+      "1963 Kızılırmak Taşkını: Kızılırmak Nehri'nin taşması, Ankara çevresinde maddi zararlara neden olmuştur."
+    ]
+  },
+  "izmir": {
+    "title": "İzmir",
+    "content": [
+      "2020 İzmir Depremi: 30 Ekim’de 7.0 büyüklüğünde meydana gelen deprem, İzmir’de 100’den fazla kişinin ölümüne ve birçok binanın yıkılmasına neden olmuştur.",
+      "1928 İzmir Depremi: 6.5 büyüklüğündeki deprem, şehirde büyük yıkıma neden olmuştur.",
+      "1995 İzmir Sel Felaketi: Şiddetli yağışlar sonucu oluşan sel, büyük maddi zarara yol açmıştır."
+    ]
+  },
+  "istanbul": {
+    "title": "İstanbul",
+    "content": [
+      "1999 Marmara Depremi: 17 Ağustos 1999’da gerçekleşen 7.4 büyüklüğündeki deprem, İstanbul’da da hissedilmiş ve şehirde hasara yol açmıştır.",
+      "1509 İstanbul Depremi ('Küçük Kıyamet'): 7.2 büyüklüğündeki deprem, büyük yıkıma ve can kaybına neden olmuştur.",
+      "2009 İstanbul Sel Felaketi: Şiddetli yağış nedeniyle özellikle Esenler ve çevresinde büyük sel olayları yaşanmıştır."
+    ]
+  },
+  "antalya": {
+    "title": "Antalya",
+    "content": [
+      "2019 Manavgat Orman Yangını: Temmuz 2019’da başlayan yangın, geniş bir alanı etkileyerek büyük zarara neden olmuştur.",
+      "2017 Antalya Fırtınası: Şehirde meydana gelen hortum ve şiddetli fırtına, tarım arazileri ve seralarda büyük zarara yol açmıştır.",
+      "1974 Antalya Depremi: Antalya çevresinde etkili olan deprem, bazı bölgelerde hasara neden olmuştur."
+    ]
+  },
+  "erzurum": {
+    "title": "Erzurum",
+    "content": [
+      "1983 Erzurum Depremi: 30 Ekim 1983’te meydana gelen 6.9 büyüklüğündeki deprem, Erzurum ve çevresinde ciddi yıkıma neden olmuştur.",
+      "1924 Erzurum Depremi: 6.8 büyüklüğündeki deprem, şehirde ve çevresinde yıkıma neden olmuştur.",
+      "2016 Çığ Felaketi: Erzurum'un kırsal kesimlerinde çığ düşmesi sonucu can kayıpları yaşanmıştır."
+    ]
+  },
+  "van": {
+    "title": "Van",
+    "content": [
+      "2011 Van Depremi: 23 Ekim 2011’de 7.2 büyüklüğündeki deprem, büyük yıkıma ve can kayıplarına neden olmuştur.",
+      "1941 Van-Erciş Depremi: 5.9 büyüklüğündeki deprem, Erciş ve Van çevresinde büyük hasar yaratmıştır.",
+      "1992 Van Çığ Felaketi: Bahçesaray ilçesinde çığ düşmesi sonucu çok sayıda kişi hayatını kaybetmiştir."
+    ]
+  },
+  "afyon": {
+    "title": "Afyon",
+    "content": [
+      "2002 Afyon Depremi: 3 Şubat 2002’de meydana gelen 6.0 büyüklüğündeki deprem, şehirde hasara ve can kayıplarına yol açmıştır.",
+      "1921 Afyon Depremi: Afyon ve çevresinde büyük yıkıma neden olmuştur.",
+      "1998 Afyon Fırtınası: Şiddetli fırtına nedeniyle evlerin çatılarında ve altyapıda hasar meydana gelmiştir."
+    ]
+  },
+  "kahramanmaraş": {
+    "title": "Kahramanmaraş",
+    "content": [
+      "2023 Kahramanmaraş Depremleri: 6 Şubat 2023’te Pazarcık ve Elbistan ilçelerinde 7.7 ve 7.6 büyüklüğünde iki büyük deprem meydana gelmiş, ciddi yıkım ve can kaybına yol açmıştır.",
+      "1971 Göksun Depremi: 5.8 büyüklüğünde bir deprem, şehirde hasara ve can kayıplarına neden olmuştur.",
+      "2021 Orman Yangınları: Kahramanmaraş'ın farklı bölgelerinde çıkan yangınlar, ormanlık alanlarda büyük kayıplara yol açmıştır."
+    ]
+  },
+  "trabzon": {
+    "title": "Trabzon",
+    "content": [
+      "1990 Trabzon Sel Felaketi: Şiddetli yağışların ardından sel meydana gelmiş, bölgede can kaybı ve büyük maddi zarara yol açmıştır.",
+      "2021 Trabzon Heyelanı: Yoğun yağışlar nedeniyle meydana gelen heyelan, evlerin yıkılmasına ve yolların kapanmasına neden olmuştur."
+    ]
+  },
+  "adana": {
+    "title": "Adana",
+    "content": [
+      "1998 Ceyhan Depremi: 6.3 büyüklüğündeki deprem, Adana ve çevresinde büyük yıkıma ve can kaybına neden olmuştur.",
+      "2021 Adana Fırtınası: Şiddetli rüzgarlar ve sağanak yağış, tarım arazilerinde ve şehir altyapısında zararlara yol açmıştır."
+    ]
+  },
+  "sakarya": {
+    "title": "Sakarya",
+    "content": [
+      "1999 Marmara Depremi: 7.4 büyüklüğündeki deprem, Sakarya’da büyük yıkım ve can kaybına neden olmuştur.",
+      "2019 Sakarya Sel Felaketi: Şiddetli yağışların ardından meydana gelen sel, bölgede ciddi hasara neden olmuştur."
+    ]
+  },
+  "konya": {
+    "title": "Konya",
+    "content": [
+      "2021 Kuraklık: Konya Ovası'nda yaşanan ciddi kuraklık, tarımsal üretimde büyük kayıplara yol açmıştır. Özellikle buğday, arpa ve şeker pancarı gibi temel ürünlerde verim ciddi şekilde düşmüştür.",
+      "2019 Yeraltı Suyu Sorunu: Aşırı yeraltı suyu kullanımı nedeniyle oluşan obruklar, tarım arazilerine zarar vermiştir ve Konya Ovası'nın sürdürülebilirliği üzerinde önemli bir tehdit oluşturmuştur.",
+      "2023 Kuraklık: Bölgedeki azalan yağışlar nedeniyle tarımsal sulama ihtiyacı karşılanamamış ve çiftçiler büyük ekonomik kayıplar yaşamıştır."
+    ]
+  }
+}

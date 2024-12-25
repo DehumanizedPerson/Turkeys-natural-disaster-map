@@ -1,0 +1,290 @@
+body {
+  background: #f2e2ce;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  position: relative;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+header{
+ width: 100%;
+ text-align: center;
+ background-color: #333;
+ color: #fff;
+ padding: 20px 0;
+ margin-bottom: 20px;
+
+
+}
+header h1 {
+ font-size: 2em;
+ margin: 0;
+}
+header button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #515a5a;
+    color:   #b2babb  ;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header button:hover {
+    background-color: #333444;
+}
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.pop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: rgb(242, 226, 206);
+  width: 500px;
+  max-width: 80%;
+  opacity: 0;
+}
+
+.pop.active {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.pop-head {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.pop-head .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.pop-head .close-button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.pop-body {
+  padding: 10px 15px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+svg .karadeniz{
+  fill: #196f3d ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
+}
+
+svg .karadeniz:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .marmara{
+  fill: #1a5276 ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
+}
+svg .marmara:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .i_anadolu{
+  fill:  #424949    ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
+}
+svg .i_anadolu:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .akdeniz{
+  fill: #17202a   ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
+}
+svg .akdeniz:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .ege{
+  fill:  #0e6251 ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
+}
+svg .ege:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .g_anadolu{
+  fill:   #1f8179;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
+}
+svg .g_anadolu:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+svg .d_anadolu{
+  fill:  #641e16 ;
+  stroke: #ccc;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill-opacity 300ms;
+}
+svg .d_anadolu:hover{
+ fill-opacity: 0.8;
+ stroke: #ccc;
+ stroke-linejoin: round;
+ fill-rule: evenodd;
+ clip-rule: evenodd;
+ stroke-width: 1;
+ cursor: pointer;
+ transition: fill-opacity 300ms;
+}
+
+body.dark-mode {
+    background:   #121212   ;
+    color: #fff;
+}
+
+header.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+header button.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+header button.dark-mode:hover {
+    background-color: #444444;
+
+}
+
+.pop.dark-mode {
+    background-color: #333333;
+    color: #fff;
+}
+
+.pop-head.dark-mode .close-button {
+    color: #fff;
+}
+
+#overlay.dark-mode {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.logo {
+ position: absolute;
+ bottom: 20px;
+ right: 20px;
+ width: 400px;
+ height: auto;
+}

@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Afet Bilgi Rehberi</title>
-  <link rel="stylesheet" href="css.css">
+    <meta charset="utf-8">
+    <title>Afet Bilgi Rehberi</title>
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
-  <header>
-    <h1>Afet Bilgi Rehberi</h1>
-    <button id="mode-s">Toggle Night Mode</button>
-  </header>
-  <div class="pop" id="pop">
-    <div class="pop-head">
-      <div class="title">Popup Title</div>
-      <button data-pop-close class="close-button">&times;</button>
+    <header>
+        <h1>Afet Bilgi Rehberi</h1>
+        <button id="mode-s">Toggle Night Mode</button>
+    </header>
+    <div class="pop" id="pop">
+        <div class="pop-head">
+            <div class="title">Popup Title</div>
+            <button data-pop-close class="close-button">&times;</button>
+        </div>
+        <div class="pop-body"></div>
+        <div class="pop-footer">
+            <img id="left-arrow" src="left-arrow.png" alt="Left" class="arrow" />
+            <img id="right-arrow" src="right-arrow.png" alt="Right" class="arrow" />
+        </div>
     </div>
-    <div class="pop-body"></div>
-  </div>
-  <div id="overlay"></div>
-  <div class="svg-container" id="svg-container"></div>
-  <img src="logo.png" alt="Logo" class="logo">
-  <script src="js.js"></script>
+    <div id="overlay"></div>
+    <div class="svg-container" id="svg-container"></div>
+    <img src="logo.png" alt="Logo" class="logo">
+    <script src="js.js"></script>
 </body>
 </html>
